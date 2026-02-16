@@ -19,4 +19,3 @@ df2 = df.withColumn(
 #df2.show(truncate=False)
 # Convert to map
 df3 = df2.withColumn("subject_map", map_from_entries("entries"))
-df3.show(truncate=False)
